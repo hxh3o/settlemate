@@ -1,18 +1,8 @@
-Django==4.2.7
-djangorestframework==3.14.0
+Django==5.0.8
+djangorestframework==3.15.2
 django-cors-headers==4.3.1
 django-environ==0.11.2
-Pillow==10.1.0
-celery==5.3.4
-redis==5.0.1
-django-redis==5.4.0
-python-socketio==5.10.0
-eventlet==0.33.3
-google-api-python-client==2.110.0
-google-auth-httplib2==0.1.1
-google-auth-oauthlib==1.1.0
-PyJWT==2.8.0
-bcrypt==4.1.2
-psycopg2-binary==2.9.9
+gunicorn==23.0.0
+pillow==9.5.0           # downgraded to avoid build errors
+psycopg2-binary==2.9.9  # if using Postgres
 python-decouple==3.8
-django-extensions==3.2.3
