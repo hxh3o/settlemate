@@ -1,0 +1,2443 @@
+Watching for file changes with StatReloader
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4178
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2344
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9731
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/api/user/ HTTP/1.1" 200 14856
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/api/ HTTP/1.1" 200 8978
+"GET /admin/api/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/api/ HTTP/1.1" 200 4186
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2344
+"POST /admin/login/?next=/admin/api/ HTTP/1.1" 302 0
+"GET /admin/api/ HTTP/1.1" 200 8978
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/api/user/ HTTP/1.1" 200 14856
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+Internal Server Error: /admin/api/user/11e2e25e-6312-4fd4-bf0a-521423f98dc5/change/
+Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\forms\models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\forms\models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created_at' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\admin.py", line 98, in get_form
+    return super().get_form(request, obj, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created_at' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class UserAdmin.
+"GET /admin/api/user/11e2e25e-6312-4fd4-bf0a-521423f98dc5/change/ HTTP/1.1" 500 155220
+"GET /admin/api/user/ HTTP/1.1" 200 14856
+"GET /admin/auth/group/ HTTP/1.1" 200 10236
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/api/usersession/ HTTP/1.1" 200 11452
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/api/trip/ HTTP/1.1" 200 11398
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/api/tripmember/ HTTP/1.1" 200 11435
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/api/tripinvite/ HTTP/1.1" 200 11590
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/api/transaction/ HTTP/1.1" 200 11451
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/api/passwordresettoken/ HTTP/1.1" 200 11498
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/api/transactionmember/ HTTP/1.1" 200 10723
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/api/fileupload/ HTTP/1.1" 200 11161
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/api/chatmessage/ HTTP/1.1" 200 11448
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/api/user/ HTTP/1.1" 200 14856
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+D:\SettleMate-main\settlemate_backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS //signup HTTP/1.1" 200 0
+Not Found: /signup
+"POST //signup HTTP/1.1" 404 2330
+Not Found: /signup
+"POST //signup HTTP/1.1" 404 2330
+"OPTIONS /api/signup HTTP/1.1" 200 0
+Internal Server Error: /api/signup
+Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/signup/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/signup HTTP/1.1" 500 76779
+D:\SettleMate-main\settlemate_backend\settlemate\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\settlemate\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /api/signup
+"POST /api/signup HTTP/1.1" 404 7617
+D:\SettleMate-main\settlemate_backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /api/signup
+"POST /api/signup HTTP/1.1" 400 146
+Bad Request: /api/signup
+"POST /api/signup HTTP/1.1" 400 62
+Internal Server Error: /admin/api/user/11e2e25e-6312-4fd4-bf0a-521423f98dc5/change/
+Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\forms\models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\forms\models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created_at' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\admin.py", line 98, in get_form
+    return super().get_form(request, obj, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created_at' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class UserAdmin.
+"GET /admin/api/user/11e2e25e-6312-4fd4-bf0a-521423f98dc5/change/ HTTP/1.1" 500 155221
+"GET /admin/api/user/ HTTP/1.1" 200 14856
+"OPTIONS /api/login HTTP/1.1" 200 0
+Bad Request: /api/login
+"POST /api/login HTTP/1.1" 400 58
+"GET /admin/api/user/add/ HTTP/1.1" 200 13315
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"POST /admin/api/user/add/ HTTP/1.1" 302 0
+Internal Server Error: /admin/api/user/e37e8114-64d0-4a8e-b269-d5bf76095b79/change/
+Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\forms\models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\forms\models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'created_at' cannot be specified for User model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\admin.py", line 98, in get_form
+    return super().get_form(request, obj, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harsh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'created_at' cannot be specified for User model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class UserAdmin.
+"GET /admin/api/user/e37e8114-64d0-4a8e-b269-d5bf76095b79/change/ HTTP/1.1" 500 155832
+D:\SettleMate-main\settlemate_backend\api\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/api/user/add/ HTTP/1.1" 200 13585
+"POST /admin/api/user/add/ HTTP/1.1" 200 13507
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/api/user/ HTTP/1.1" 200 15405
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+"GET /admin/api/user/e37e8114-64d0-4a8e-b269-d5bf76095b79/change/ HTTP/1.1" 200 19310
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /api/login HTTP/1.1" 200 476
+"OPTIONS /api/getName HTTP/1.1" 200 0
+Not Found: /api/getName
+"POST /api/getName HTTP/1.1" 404 7592
+"OPTIONS /api/getTripsData HTTP/1.1" 200 0
+Unauthorized: /api/getTripsData
+"POST /api/getTripsData HTTP/1.1" 401 58
+D:\SettleMate-main\settlemate_backend\settlemate\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/login HTTP/1.1" 200 476
+"OPTIONS /api/getUserData HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 38
+"OPTIONS /api/createtrip HTTP/1.1" 200 0
+Create trip error: 'request'
+Internal Server Error: /api/createtrip
+"POST /api/createtrip HTTP/1.1" 500 80
+"OPTIONS /api/getInvites HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getInvites HTTP/1.1" 200 26
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getUserData HTTP/1.1" 200 217
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\transaction_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getInvites HTTP/1.1" 200 26
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 38
+"POST /api/createtrip HTTP/1.1" 201 102
+"OPTIONS /api/getTripMembers HTTP/1.1" 200 0
+"OPTIONS /api/getTripData HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripData HTTP/1.1" 200 836
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwQ_ju HTTP/1.1" 404 2383
+Not Found: /api/getTripMembers
+"POST /api/getTripMembers HTTP/1.1" 404 7613
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwQ_nQ HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwR00e HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwR0Vt HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwR1zb HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwR3RO HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwR4v4 HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwR6Mu HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwR7qm HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwR9IJ HTTP/1.1" 404 2383
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRAmD HTTP/1.1" 404 2383
+D:\SettleMate-main\settlemate_backend\api\transaction_views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRCTY HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRDv0 HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRF8D HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRGNU HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRHrE HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRJJ8 HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRKmu HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRMEX HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRNiB HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRPA2 HTTP/1.1" 404 2383
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRQdp HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRS5W HTTP/1.1" 404 2383
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRTZN HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRV14 HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRWUu HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRXyW HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRZQH HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRat_ HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRcLp HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRdpb HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRfHA HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRgk- HTTP/1.1" 404 2383
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRiCv HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRjgT HTTP/1.1" 404 2383
+D:\SettleMate-main\settlemate_backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRl8J HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRmc4 HTTP/1.1" 404 2383
+D:\SettleMate-main\settlemate_backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRo3t HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRpXX HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRq_D HTTP/1.1" 404 2383
+Watching for file changes with StatReloader
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRsSw HTTP/1.1" 404 2383
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwRu3c HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 469
+"POST /api/login HTTP/1.1" 200 476
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 469
+Get trip data error: ['“0” is not a valid UUID.']
+Get trip members error: ['“0” is not a valid UUID.']
+Internal Server Error: /api/getTripData
+Internal Server Error: /api/getTripMembers
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripData HTTP/1.1" 500 81
+"POST /api/getTripMembers HTTP/1.1" 500 79
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwS2OZ HTTP/1.1" 404 2383
+D:\SettleMate-main\settlemate_backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/login HTTP/1.1" 200 476
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 469
+Get trip members error: ['“0” is not a valid UUID.']
+Internal Server Error: /api/getTripMembers
+Get trip data error: ['“0” is not a valid UUID.']
+"POST /api/getTripMembers HTTP/1.1" 500 79
+Internal Server Error: /api/getTripData
+"POST /api/getTripData HTTP/1.1" 500 81
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwSGd- HTTP/1.1" 404 2383
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/getTripMembers
+Bad Request: /api/getTripData
+Bad Request: /api/signup
+Signup error: UserManager.create_user() missing 1 required positional argument: 'username'
+Internal Server Error: /api/signup
+Signup error: UserManager.create_user() missing 1 required positional argument: 'username'
+Internal Server Error: /api/signup
+Bad Request: /api/getTripMembers
+Bad Request: /api/getTripData
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /favicon.ico
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /admin
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /favicon.ico
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Bad Request: /api/getTripMembers
+Bad Request: /api/getTripData
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/img/search.svg
+Not Found: /static/admin/img/icon-yes.svg
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/js/filters.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/img/search.svg
+Not Found: /static/admin/img/icon-yes.svg
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/js/filters.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/cancel.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/img/search.svg
+Not Found: /static/admin/img/icon-yes.svg
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/js/filters.js
+Bad Request: /api/getTripData
+Bad Request: /api/getTripData
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/img/search.svg
+Not Found: /static/admin/img/icon-yes.svg
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/js/filters.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/js/cancel.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/img/search.svg
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/js/filters.js
+Client TWu5_cZ0EpBNhL9OAAAF connected
+User test@gmail.com connected with session TWu5_cZ0EpBNhL9OAAAF
+User test@gmail.com disconnected from session TWu5_cZ0EpBNhL9OAAAF
+Client 3lmSI9mCEUCi7n4KAAAH connected
+User test@gmail.com connected with session 3lmSI9mCEUCi7n4KAAAH
+User test@gmail.com joined room 11d047f2-ebea-429f-9c0c-96a9b322d967
+Message from test@gmail.com broadcasted to room 11d047f2-ebea-429f-9c0c-96a9b322d967
+User test@gmail.com disconnected from session 3lmSI9mCEUCi7n4KAAAH
+Not Found: /api/getTripTransfers
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/img/search.svg
+Not Found: /static/admin/img/icon-yes.svg
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/filters.js
+Not Found: /static/admin/img/icon-yes.svg
+Not Found: /admin
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Watching for file changes with StatReloader
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"POST /api/getTripMembers HTTP/1.1" 200 169
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripData HTTP/1.1" 200 1334
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+- Broken pipe from ('127.0.0.1', 58913)
+"POST /api/addChat HTTP/1.1" 201 395
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+- Broken pipe from ('127.0.0.1', 54273)
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Watching for file changes with StatReloader
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+Watching for file changes with StatReloader
+"POST /api/login HTTP/1.1" 200 476
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripMembers HTTP/1.1" 200 169
+"POST /api/getTripData HTTP/1.1" 200 1667
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+"POST /api/addChat HTTP/1.1" 201 395
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+"POST /api/addChat HTTP/1.1" 201 397
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripMembers HTTP/1.1" 200 169
+Not Found: /socket.io/
+"POST /api/getTripData HTTP/1.1" 200 1235
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+- Broken pipe from ('127.0.0.1', 50354)
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+"POST /api/login HTTP/1.1" 200 476
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 169
+"POST /api/getTripData HTTP/1.1" 200 1235
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 404 2371
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4155
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 10755
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /admin/api/user/ HTTP/1.1" 200 15847
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/api/user/11e2e25e-6312-4fd4-bf0a-521423f98dc5/change/ HTTP/1.1" 200 19407
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /admin/api/user/ HTTP/1.1" 200 15847
+"OPTIONS /api/signup HTTP/1.1" 200 0
+Signup error: UserManager.create_user() missing 1 required positional argument: 'username'
+Internal Server Error: /api/signup
+"POST /api/signup HTTP/1.1" 500 76
+"GET /admin/api/user/ HTTP/1.1" 200 15847
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/api/user/ HTTP/1.1" 200 15847
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Signup error: UserManager.create_user() missing 1 required positional argument: 'username'
+Internal Server Error: /api/signup
+"POST /api/signup HTTP/1.1" 500 76
+D:\SettleMate-main\settlemate_backend\api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/signup HTTP/1.1" 201 488
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 38
+"POST /api/createtrip HTTP/1.1" 201 102
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwqgye HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 219
+"POST /api/getTripMembers HTTP/1.1" 200 171
+"POST /api/getTripData HTTP/1.1" 200 676
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwqgye HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwqg-f HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwqg-f HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwqhJK HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwqhJK HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwqheE HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwqheE HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwqiJ4 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwqiJ4 HTTP/1.1" 404 2383
+"POST /api/addChat HTTP/1.1" 201 396
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwqjXe HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwqjXe HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwqklz HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwqklz HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 470
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwqlrD HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 219
+"POST /api/getTripMembers HTTP/1.1" 200 171
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwqlrD HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 787
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwqltR HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwqltR HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwqm8n HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwqm8n HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 470
+D:\SettleMate-main\settlemate_backend\api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/login HTTP/1.1" 200 476
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwr681 HTTP/1.1" 200 0
+"POST /api/getTripMembers HTTP/1.1" 200 169
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripData HTTP/1.1" 200 1235
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwr681 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwr69z HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwr69z HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwr6N0 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwr6N0 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwr6xf HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwr6xf HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwr88D HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwr88D HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwr9c3 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwr9c3 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwrB3m HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwrB3m HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwrCXW HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwrCXW HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwrDmb HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwrDmb HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwrE_A HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwrE_A HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /admin/api/trip/ HTTP/1.1" 200 15118
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/api/tripinvite/ HTTP/1.1" 200 11769
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/api/tripmember/ HTTP/1.1" 200 14763
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwrQ6b HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwrQ6b HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 169
+"POST /api/getTripData HTTP/1.1" 200 1235
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwrQ8V HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwrQ8V HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwrQHi HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwrQHi HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=a7af1eae-eb4d-4678-9738-767514927989 HTTP/1.1" 200 26
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwrB3m HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=a7af1eae-eb4d-4678-9738-767514927989 HTTP/1.1" 200 26
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=a7af1eae-eb4d-4678-9738-767514927989 HTTP/1.1" 200 26
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwsK41 HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 169
+"GET /socket.io/?EIO=4&transport=polling&t=PbwsK41 HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1235
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwsK5t HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwsK5t HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwsKTJ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwsKTJ HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwsK_U HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwsK_U HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwsLmx HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwsLmx HTTP/1.1" 404 2383
+"GET /admin/api/user/ HTTP/1.1" 200 16470
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwsM_Q HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwsM_Q HTTP/1.1" 404 2383
+"OPTIONS /api/invite HTTP/1.1" 200 0
+Invite member error: 'Settings' object has no attribute 'FRONTEND_URL'
+Internal Server Error: /api/invite
+"POST /api/invite HTTP/1.1" 500 77
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwsOSx HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwsOSx HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwsPwl HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwsPwl HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwsROP HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwsROP HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwsSsA HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwsSsA HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+D:\SettleMate-main\settlemate_backend\settlemate\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\settlemate\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwspa2 HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripMembers HTTP/1.1" 200 169
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwspa2 HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1235
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwspcv HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwspcv HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwsp-R HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwsp-R HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwsqHQ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwsqHQ HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwsr8H HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwsr8H HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwssUh HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwssUh HTTP/1.1" 404 2383
+Bad Request: /api/invite
+"POST /api/invite HTTP/1.1" 400 72
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwstyZ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwstyZ HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /admin/api/tripinvite/ HTTP/1.1" 200 14206
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /api/login HTTP/1.1" 200 479
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 470
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getInvites HTTP/1.1" 200 604
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 470
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 470
+"POST /api/login HTTP/1.1" 200 479
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 470
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwts3g HTTP/1.1" 200 0
+"POST /api/getTripMembers HTTP/1.1" 200 171
+"GET /api/getUserData HTTP/1.1" 200 219
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwts3g HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 787
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwts88 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwts88 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwtsOD HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwtsOD HTTP/1.1" 404 2383
+"OPTIONS /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 26
+"OPTIONS /api/createtransaction HTTP/1.1" 200 0
+Bad Request: /api/createtransaction
+"POST /api/createtransaction HTTP/1.1" 400 96
+Bad Request: /api/createtransaction
+"POST /api/createtransaction HTTP/1.1" 400 96
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getInvites HTTP/1.1" 200 604
+"GET /api/getUserData HTTP/1.1" 200 219
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\trip_views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 470
+"GET /api/getTripsData HTTP/1.1" 200 470
+"GET /api/getTripsData HTTP/1.1" 200 470
+"GET /api/getInvites HTTP/1.1" 200 286
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getUserData HTTP/1.1" 200 219
+"OPTIONS /api/acceptInvite HTTP/1.1" 200 0
+"POST /api/acceptInvite HTTP/1.1" 200 99
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwuy8g HTTP/1.1" 200 0
+Get trip members error: No Trip matches the given query.
+Internal Server Error: /api/getTripMembers
+Get trip data error: No Trip matches the given query.
+"GET /api/getUserData HTTP/1.1" 200 219
+Internal Server Error: /api/getTripData
+"POST /api/getTripMembers HTTP/1.1" 500 79
+"POST /api/getTripData HTTP/1.1" 500 81
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwuy8g HTTP/1.1" 404 2383
+"POST /api/login HTTP/1.1" 200 479
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 901
+"GET /api/getTripsData HTTP/1.1" 200 901
+"GET /api/getTripsData HTTP/1.1" 200 901
+"POST /api/login HTTP/1.1" 200 476
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /api/getTripsData HTTP/1.1" 200 899
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwvfha HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwvfha HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripData HTTP/1.1" 200 894
+"POST /api/getTripMembers HTTP/1.1" 200 169
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwvfjd HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwvfjd HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwvg5b HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwvg5b HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwvgqR HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwvgqR HTTP/1.1" 404 2383
+Trip invite URL for test2@gmail.com: http://localhost:3000/invite/a34fc3a0-5b39-4ea6-9e0a-cf600f124328
+"POST /api/invite HTTP/1.1" 200 59
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwvhhk HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwvhhk HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwvj6M HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwvj6M HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwvkKz HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwvkKz HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwvloF HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwvloF HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwvnDe HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwvnDe HTTP/1.1" 404 2383
+Bad Request: /api/invite
+"POST /api/invite HTTP/1.1" 400 72
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwvoTw HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwvoTw HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwvpkF HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwvpkF HTTP/1.1" 404 2383
+"POST /api/login HTTP/1.1" 200 479
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 901
+"GET /api/getTripsData HTTP/1.1" 200 901
+"GET /api/getTripsData HTTP/1.1" 200 901
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getInvites HTTP/1.1" 200 286
+"GET /api/getUserData HTTP/1.1" 200 219
+"POST /api/acceptInvite HTTP/1.1" 200 99
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwvuTY HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 219
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwvuTY HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/getTripData HTTP/1.1" 200 1029
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwvuV_ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwvuV_ HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwvus0 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwvus0 HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getInvites HTTP/1.1" 200 26
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwvyR3 HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 219
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 171
+"GET /socket.io/?EIO=4&transport=polling&t=PbwvyR3 HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 787
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwvySy HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwvySy HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwvynH HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwvynH HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwvz6- HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwvz6- HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwv-S8 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwv-S8 HTTP/1.1" 404 2383
+Trip invite URL for test@gmail.com: http://localhost:3000/invite/90d95e28-0aa0-408b-81e7-56eecaa9785b
+"POST /api/invite HTTP/1.1" 200 58
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbwv_gb HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbwv_gb HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbww17Z HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbww17Z HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbww2bD HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbww2bD HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbww42z HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbww42z HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbww5Wl HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbww5Wl HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbww6-W HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbww6-W HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbww8Cr HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbww8Cr HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"POST /api/createtrip HTTP/1.1" 201 102
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwwWnL HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 219
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwwWnL HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 171
+"POST /api/getTripData HTTP/1.1" 200 676
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwwWpD HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwwWpD HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwwXBF HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwwXBF HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwwXfs HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwwXfs HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwwYaF HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwwYaF HTTP/1.1" 404 2383
+Trip invite URL for test@gmail.com: http://localhost:3000/invite/34f66ac2-4988-4fd0-9f10-d49f37a92b84
+"POST /api/invite HTTP/1.1" 200 58
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwwZoj HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwwZoj HTTP/1.1" 404 2383
+"POST /api/login HTTP/1.1" 200 476
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /api/getTripsData HTTP/1.1" 200 899
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getInvites HTTP/1.1" 200 551
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/acceptInvite HTTP/1.1" 200 99
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwwcXu HTTP/1.1" 200 0
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwwcXu HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 919
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwwcZv HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwwcZv HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getInvites HTTP/1.1" 200 288
+"GET /api/getUserData HTTP/1.1" 200 217
+"OPTIONS /api/declineInvite HTTP/1.1" 200 0
+"POST /api/declineInvite HTTP/1.1" 200 44
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwwfxW HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /socket.io/?EIO=4&transport=polling&t=PbwwfxW HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 919
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=PbwwfzO HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=PbwwfzO HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 26
+Bad Request: /api/createtransaction
+"POST /api/createtransaction HTTP/1.1" 400 96
+D:\SettleMate-main\settlemate_backend\api\transaction_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\transaction_views.py changed, reloading.
+Watching for file changes with StatReloader
+Create transaction error: NOT NULL constraint failed: api_transaction.trip_id
+Internal Server Error: /api/createtransaction
+"POST /api/createtransaction HTTP/1.1" 500 87
+D:\SettleMate-main\settlemate_backend\api\transaction_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\transaction_views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/createtransaction HTTP/1.1" 201 116
+"OPTIONS /api/getTransactionData HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTransactionData HTTP/1.1" 200 464
+Unauthorized: /api/getTransactionData
+"POST /api/getTransactionData HTTP/1.1" 401 58
+"GET /api/getUserData HTTP/1.1" 200 217
+D:\SettleMate-main\settlemate_backend\api\transaction_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\transaction_views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTransactionData HTTP/1.1" 200 464
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 698
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/createtransaction HTTP/1.1" 201 116
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTransactionData HTTP/1.1" 200 635
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 1611
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTransactionData HTTP/1.1" 200 635
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 1611
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-991 HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripData HTTP/1.1" 200 919
+"POST /api/getTripMembers HTTP/1.1" 200 257
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-991 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-9BH HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-9BH HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-9MM HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-9MM HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-9nW HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-9nW HTTP/1.1" 404 2383
+"POST /api/addChat HTTP/1.1" 201 394
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-Af5 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-Af5 HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-C8m HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-C8m HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-CAf HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-CAf HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-CND HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-CND HTTP/1.1" 404 2383
+Not Found: /api/getTripTransfers
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 404 8173
+D:\SettleMate-main\settlemate_backend\api\transaction_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\utils.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/getTripTransfers HTTP/1.1" 200 236
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-p0P HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/getTripData HTTP/1.1" 200 1031
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-p0P HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-p3S HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-p3S HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-pMl HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-pMl HTTP/1.1" 404 2383
+D:\SettleMate-main\settlemate_backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-pun HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-pun HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 236
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-x-m HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-x-m HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-y1G HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-y1G HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-yZ1 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-yZ1 HTTP/1.1" 404 2383
+Watching for file changes with StatReloader
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw-zHz HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw-zHz HTTP/1.1" 404 2383
+"POST /api/login HTTP/1.1" 200 476
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_0zs HTTP/1.1" 200 0
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"POST /api/getTripData HTTP/1.1" 200 1031
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_0zs HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_10k HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_10k HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_1IW HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_1IW HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 236
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_1wr HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_1wr HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_1zh HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_1zh HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_2FU HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_2FU HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 236
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_2jo HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_2jo HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_2m9 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_2m9 HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_3Ae HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_3Ae HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1370
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_3Cr HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_3Cr HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_3WQ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_3WQ HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_3rA HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_3rA HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 26
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_4bM HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_4bM HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1370
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_4dE HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_4dE HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_520 HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_520 HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1029
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_544 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_544 HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 26
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_5TM HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_5TM HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/getTripData HTTP/1.1" 200 1029
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_5Vh HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_5Vh HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_5uA HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_5uA HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_5wQ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_5wQ HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_63z HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_63z HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 236
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_6me HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_6me HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_6p0 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_6p0 HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_7Ck HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripMembers HTTP/1.1" 200 257
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_7Ck HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1370
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_7Ed HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_7Ed HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_7OR HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_7OR HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_7v_ HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_7v_ HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_7xi HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_7xi HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbw_8Wf HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbw_8Wf HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 236
+"POST /api/getTripTransfers HTTP/1.1" 200 236
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0AHM HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0AHM HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1031
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0AJh HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0AJh HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0Ae7 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0Ae7 HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 1611
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/createtransaction HTTP/1.1" 201 116
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTransactionData HTTP/1.1" 200 636
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0D_K HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0D_K HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0E1D HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0E1D HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0ECM HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0ECM HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0Egg HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0Egg HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTransactionData HTTP/1.1" 200 636
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 2525
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0FvJ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0FvJ HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0FxN HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0FxN HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 236
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 236
+"POST /api/signup HTTP/1.1" 201 488
+"GET /api/getTripsData HTTP/1.1" 200 38
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 38
+"GET /api/getTripsData HTTP/1.1" 200 38
+"POST /api/login HTTP/1.1" 200 476
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0pUH HTTP/1.1" 200 0
+"POST /api/getTripMembers HTTP/1.1" 200 257
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0pUH HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0pWM HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0pWM HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0ppJ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0ppJ HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0q6F HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0q6F HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0qco HTTP/1.1" 200 0
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0qco HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1370
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0qf9 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0qf9 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0qva HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0qva HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0rYT HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0rYT HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0smu HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0smu HTTP/1.1" 404 2383
+Trip invite URL for test3@gmail.com: http://localhost:3000/invite/c7affd4a-895f-49d3-afac-4a8421e22352
+"POST /api/invite HTTP/1.1" 200 59
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"POST /api/login HTTP/1.1" 200 479
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 38
+"GET /api/getTripsData HTTP/1.1" 200 38
+"GET /api/getTripsData HTTP/1.1" 200 38
+"GET /api/getInvites HTTP/1.1" 200 286
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getUserData HTTP/1.1" 200 219
+"POST /api/acceptInvite HTTP/1.1" 200 99
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0xMN HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 219
+"POST /api/getTripMembers HTTP/1.1" 200 345
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0xMN HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1505
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0xPG HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0xPG HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0xin HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0xin HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx0yBQ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx0yBQ HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTransactions?tripid=a7af1eae-eb4d-4678-9738-767514927989 HTTP/1.1" 200 26
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/createtransaction HTTP/1.1" 201 116
+"GET /api/getUserData HTTP/1.1" 200 219
+"POST /api/getTransactionData HTTP/1.1" 200 808
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTransactions?tripid=a7af1eae-eb4d-4678-9738-767514927989 HTTP/1.1" 200 1177
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx11sJ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx11sJ HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/getTripData HTTP/1.1" 200 1505
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx11uQ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx11uQ HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx124A HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx124A HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 219
+"POST /api/getTripTransfers HTTP/1.1" 200 451
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx17B9 HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 219
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx17B9 HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1505
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx17DM HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx17DM HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx17Qu HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx17Qu HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getInvites HTTP/1.1" 200 26
+"GET /api/getUserData HTTP/1.1" 200 219
+"POST /api/login HTTP/1.1" 200 476
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx18vM HTTP/1.1" 200 0
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx18vM HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1505
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx18xe HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx18xe HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx19B8 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx19B8 HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=a7af1eae-eb4d-4678-9738-767514927989 HTTP/1.1" 200 1177
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx19vd HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx19vd HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1505
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx19xe HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx19xe HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1A8K HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1A8K HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=a7af1eae-eb4d-4678-9738-767514927989 HTTP/1.1" 200 1177
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/createtransaction HTTP/1.1" 201 116
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTransactionData HTTP/1.1" 200 804
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTransactions?tripid=a7af1eae-eb4d-4678-9738-767514927989 HTTP/1.1" 200 2328
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1DzV HTTP/1.1" 200 0
+"POST /api/getTripMembers HTTP/1.1" 200 345
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1DzV HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripData HTTP/1.1" 200 1505
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1E02 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1E02 HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 451
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1FQy HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripMembers HTTP/1.1" 200 345
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1FQy HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1505
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1FTk HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1FTk HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1Fr8 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1Fr8 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1GGz HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1GGz HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"POST /api/login HTTP/1.1" 200 479
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 1765
+"GET /api/getTripsData HTTP/1.1" 200 1765
+"GET /api/getTripsData HTTP/1.1" 200 1765
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1J0i HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 219
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1J0i HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/getTripData HTTP/1.1" 200 1505
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1J35 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1J35 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1JPG HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1JPG HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1JkN HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1JkN HTTP/1.1" 404 2383
+"POST /api/addChat HTTP/1.1" 201 396
+"POST /api/login HTTP/1.1" 200 479
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 468
+"GET /api/getTripsData HTTP/1.1" 200 468
+"GET /api/getTripsData HTTP/1.1" 200 468
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1LwO HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1LwO HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/getTripData HTTP/1.1" 200 1617
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1Lyk HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1Lyk HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1M9K HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1M9K HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1Mqn HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1Mqn HTTP/1.1" 404 2383
+"POST /api/addChat HTTP/1.1" 201 396
+"POST /api/login HTTP/1.1" 200 476
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1Oee HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1Oee HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/getTripData HTTP/1.1" 200 1729
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1Ogz HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1Ogz HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1O-a HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1O-a HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1PTk HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1PTk HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 451
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1cfO HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1cfO HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/getTripData HTTP/1.1" 200 1729
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1cj3 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1cj3 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1csY HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1csY HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"POST /api/getTripTransfers HTTP/1.1" 200 451
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1dHp HTTP/1.1" 200 0
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"GET /api/getUserData HTTP/1.1" 200 217
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1dHp HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1729
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1dMT HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1dMT HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getInvites HTTP/1.1" 200 26
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /api/getTripsData HTTP/1.1" 200 1332
+"GET /admin/api/user/ HTTP/1.1" 200 17093
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /admin/api/user/9a95654f-86f4-42c6-963f-1c634105f468/change/ HTTP/1.1" 200 19460
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getInvites HTTP/1.1" 200 26
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getUserData HTTP/1.1" 200 217
+"GET /api/getUserData HTTP/1.1" 200 217
+"OPTIONS /api/editprofile HTTP/1.1" 200 0
+"PUT /api/editprofile HTTP/1.1" 200 262
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getInvites HTTP/1.1" 200 26
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /admin/api/user/ HTTP/1.1" 200 17093
+"GET /admin/api/user/e37e8114-64d0-4a8e-b269-d5bf76095b79/change/ HTTP/1.1" 200 19479
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/api/user/ HTTP/1.1" 200 17093
+"GET /admin/api/user/e37e8114-64d0-4a8e-b269-d5bf76095b79/change/ HTTP/1.1" 200 19479
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/api/user/ HTTP/1.1" 200 17093
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getInvites HTTP/1.1" 200 26
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1_Gg HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 233
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1_Gg HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1745
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1_KF HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1_KF HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1_Zh HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1_Zh HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx1_xm HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx1_xm HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx216d HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx216d HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx22L5 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx22L5 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx23n7 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx23n7 HTTP/1.1" 404 2383
+Unauthorized: /api/uploadDrive
+"POST /api/uploadDrive HTTP/1.1" 401 58
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx25Et HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx25Et HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx26ic HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx26ic HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx28AF HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx28AF HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx29d_ HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx29d_ HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2B5r HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2B5r HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2CPw HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2CPw HTTP/1.1" 404 2383
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2DS5 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2DS5 HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2DXV HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2DXV HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2Dm7 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2Dm7 HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 2621
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2EuX HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 233
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2EuX HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2E-A HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2E-A HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2FDk HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2FDk HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2Fkk HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2Fkk HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2Gj4 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2Gj4 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2IAr HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2IAr HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2Jef HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2Jef HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2L6T HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2L6T HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2Ma7 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2Ma7 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2O1p HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2O1p HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2PVh HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2PVh HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2QzX HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2QzX HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2SR8 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2SR8 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2Tv0 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2Tv0 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2VMd HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2VMd HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2WqX HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2WqX HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2YI9 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2YI9 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2Zlu HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2Zlu HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2bDh HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2bDh HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2chT HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2chT HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx2dwI HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx2dwI HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 2621
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTransactionData HTTP/1.1" 200 636
+Unauthorized: /api/getTransactionData
+"POST /api/getTransactionData HTTP/1.1" 401 58
+"GET /api/getUserData HTTP/1.1" 200 233
+Unauthorized: /api/uploadDrive
+"POST /api/uploadDrive HTTP/1.1" 401 58
+D:\SettleMate-main\settlemate_backend\api\transaction_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\SettleMate-main\settlemate_backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4l8P HTTP/1.1" 200 0
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTripData HTTP/1.1" 200 1031
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4l8P HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4lCO HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4lCO HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4lNC HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4lNC HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4l-o HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4l-o HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 2621
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTransactionData HTTP/1.1" 200 636
+Unauthorized: /api/getTransactionData
+"POST /api/getTransactionData HTTP/1.1" 401 58
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTransactionData HTTP/1.1" 200 636
+Unauthorized: /api/getTransactionData
+"POST /api/getTransactionData HTTP/1.1" 401 58
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTransactionData HTTP/1.1" 200 636
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTransactions?tripid=2cc7b0de-2d47-4eae-ba99-61de94fd5e37 HTTP/1.1" 200 2621
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4omK HTTP/1.1" 200 0
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"GET /api/getUserData HTTP/1.1" 200 233
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4omK HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4oqO HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4oqO HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+Unauthorized: /api/getTransactionData
+"POST /api/getTransactionData HTTP/1.1" 401 58
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"POST /api/login HTTP/1.1" 200 492
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4zRG HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4zRG HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4zUc HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4zUc HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4zfF HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4zfF HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTripTransfers HTTP/1.1" 200 236
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4-rS HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4-rS HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1031
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4-v4 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4-v4 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx4_2U HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx4_2U HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTripTransfers HTTP/1.1" 200 236
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx508a HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx508a HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 257
+"POST /api/getTripData HTTP/1.1" 200 1031
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx50Bp HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx50Bp HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx50bv HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 233
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx50bv HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1745
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx50ek HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx50ek HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx50sC HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx50sC HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTripTransfers HTTP/1.1" 200 451
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx52mR HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx52mR HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTripData HTTP/1.1" 200 1745
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx52q3 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx52q3 HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTransactions?tripid=a7af1eae-eb4d-4678-9738-767514927989 HTTP/1.1" 200 2376
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/createtransaction HTTP/1.1" 201 116
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTransactionData HTTP/1.1" 200 804
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx576q HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 233
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx576q HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/getTripData HTTP/1.1" 200 1745
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx57B1 HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx57B1 HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx57Qi HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx57Qi HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTripTransfers HTTP/1.1" 200 449
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx5CRU HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 233
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx5CRU HTTP/1.1" 404 2383
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/getTripData HTTP/1.1" 200 1745
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx5CVA HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx5CVA HTTP/1.1" 404 2383
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx5CfD HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx5CfD HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTransactions?tripid=a7af1eae-eb4d-4678-9738-767514927989 HTTP/1.1" 200 3556
+"POST /api/login HTTP/1.1" 200 479
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTripsData HTTP/1.1" 200 1797
+"GET /api/getTripsData HTTP/1.1" 200 1797
+"GET /api/getTripsData HTTP/1.1" 200 1797
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx5GPo HTTP/1.1" 200 0
+"GET /api/getUserData HTTP/1.1" 200 219
+"POST /api/getTripMembers HTTP/1.1" 200 345
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx5GPo HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1745
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx5GTf HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx5GTf HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /api/getTransactions?tripid=a7af1eae-eb4d-4678-9738-767514927989 HTTP/1.1" 200 3556
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/createtransaction HTTP/1.1" 201 116
+"GET /api/getUserData HTTP/1.1" 200 219
+"POST /api/getTransactionData HTTP/1.1" 200 801
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx5JOp HTTP/1.1" 200 0
+Not Found: /socket.io/
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"GET /api/getUserData HTTP/1.1" 200 219
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx5JOp HTTP/1.1" 404 2383
+"POST /api/getTripData HTTP/1.1" 200 1745
+"OPTIONS /socket.io/?EIO=4&transport=polling&t=Pbx5JSU HTTP/1.1" 200 0
+Not Found: /socket.io/
+"GET /socket.io/?EIO=4&transport=polling&t=Pbx5JSU HTTP/1.1" 404 2383
+"GET /api/getUserData HTTP/1.1" 200 219
+"POST /api/getTripTransfers HTTP/1.1" 200 451
+"POST /api/login HTTP/1.1" 200 492
+"GET /api/getUserData HTTP/1.1" 200 233
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getTripsData HTTP/1.1" 200 1364
+"GET /api/getUserData HTTP/1.1" 200 233
+"POST /api/getTripMembers HTTP/1.1" 200 345
+"POST /api/getTripData HTTP/1.1" 200 1745
+"POST /api/addChat HTTP/1.1" 201 410

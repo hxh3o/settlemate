@@ -1,0 +1,48 @@
+.headerBox {
+    display: flex;
+    padding: 7px;
+    background-color: #1976d2;
+    height: 100%;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+}
+
+.myhtml {
+    display: grid;
+    grid-template-rows: 7% 93%;
+    height: 100vh;
+}
+
+.main-header {
+    grid-row: 1;
+    overflow-y: hidden;
+}
+
+.main-content {
+    grid-row: 2;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(25, 118, 210);
+    border-radius: 3.5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(25, 118, 210);
+    border-radius: 3.5px;
+}
